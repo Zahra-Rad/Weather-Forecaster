@@ -6,7 +6,8 @@
 
 body {
   font-family: "Rubik", sans-serif;
-  background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.2)), url(../img/bg.avif) no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)),
+    url(../img/bg.avif) no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   color: white;
@@ -85,6 +86,7 @@ button {
   border-radius: 20px;
   padding: 10px 15px;
   font-family: "Rubik", sans-serif;
+  -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   border: 1px solid rgba(255, 255, 255, 0.15);
   background-color: rgba(255, 255, 255, 0.1);
@@ -157,6 +159,7 @@ section > div:first-of-type > div:nth-of-type(2) > div {
   border: 1px solid rgba(255, 255, 255, 0.15);
   background-color: rgba(255, 255, 255, 0.1);
   box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.308);
+  -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   display: flex;
   flex-direction: column;
